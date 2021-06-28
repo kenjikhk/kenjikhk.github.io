@@ -29,17 +29,17 @@ def follow_voices():
         ('wait',"Wait and see what happens")
     ]
 
-    return render_template('backhome.html', title=title, text=text, choices=choices)
+    return render_template('follow.html', title=title, text=text, choices=choices)
 
 @app.route("/wait")
 def wait():
-    title = "No balls no goals"
+    title = "No guts no glory"
     
     text = """You stayed there for the rest of your life"""
 
     choices = []
 
-    return render_template('backhome.html', title=title, text=text, choices=choices)
+    return render_template('dead.html', title=title, text=text, choices=choices)
 
 
 
@@ -51,4 +51,4 @@ def go_inside():
 
     choices = []
 
-    return render_template('backhome.html', title=title, text=text, choices=choices)
+    return render_template('inside.html', title=title, text=text, choices=choices)
