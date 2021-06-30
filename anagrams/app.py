@@ -8,7 +8,7 @@ def main():
     return render_template('words.html')
 Text
 
-@app.route("/anagrams/<word>")
+@app.route("/words/<word>")
 
 def anagrams(word):
     word = word.upper()
@@ -21,4 +21,4 @@ def anagrams(word):
         if sorted(w) == sorted(word):
             anagrams.append(w)
 
-    return render_template('words.html', word_list=anagrams)
+    return render_template('words.html', word_list=anagrams, word = word)
