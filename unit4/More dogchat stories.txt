@@ -1,0 +1,30 @@
+Stories:
+1. A new dog to sign up for the app
+	a. A dog opens DogChat website
+	b. First page to be opened - sign up page
+	c. A dog signs up using unique user name and any password
+	d. If successful, profil edit page opens up
+2. A dog to be able to become friends with another dog
+	a. A dog searches for another dog's profile in search tab -> then clicks on it
+	b. New page with another dogs opens up
+	c. A dog clicks on "Send friend request" button on new dog's profile
+	d. Another dog receives notification about new friend request on its notification tab and clicks on it
+	e. New page with friends request opens up
+	f. New dog clicks "accept request" button to accept the request
+3. A dog to be able to remove another dog from its friend list
+	a. A dog goes to "friend list" tab and clicks to open
+	b. List of friends opens
+	c. Next to each friends name there is an option to "Remove from friends list"
+	d. A dog clicks on "Remove from friends list" next to another dog's name to remove from friends
+
+Views:
+Story 1:
+	a. Sign up page
+	b. Profile page
+Story 2:
+	a. Profile page
+	b. Notofications page
+	c. Friends requests page
+Story 3:
+	a. Profile page
+	b. Friends list
